@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css\styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Ramiro</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bxs-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bxs-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bxs-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <h1 class="home__title">Colmenares <b>Ramiro</b></h1>
+                                <h3 class="home__profession">Web Developer</h3>
+
+                                <!-- Button to download your CV saved in the pdf folder. Available for desktop. -->
+                                <div>
+                                    <a  download="" href="pdf\CV-Ramiro.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Calle 76a #86-16 /Bogotá - Colombia
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-envelope home__icon'></i> rcolmenaresalarcon@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxs-phone home__icon'></i> (+57) 3186849805
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bxs-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/ramiro-colmenares-alarcon/?locale=en_US" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> @RamiroColmenares
+                            </a>
+                            
+                            <a href="https://github.com/ramirocolme" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i> @ramirocolme
+                            </a>
+
+                            <a href="https://www.instagram.com/ramirocadev" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @RamiroCADev
+                            </a>
+                        </div>
+                    </section>
+
+                    
+                    
+                    
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience-title">Web Developer</h3>
+                                    <span class="experience__company">Projects on GitHub</span>
+                                    <p class="experience__description">Work on my own projects devoting the most responsibility 
+                                        to practice and improve my skills in CSS, HTML and Javascript. 
+                                        In addition to strengthening my skills in programming logic.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <section class="education section" id="education">
+                            <h2 class="section-title">Education</h2>
+
+                            <div class="education__container bd-grid">
+                                <div class="education__content">
+                                    <div class="education__time">
+                                        <span class="education__rounder"></span>
+                                        <span class="education__line"></span>
+                                    </div>
+
+                                    <div class="education__data bd-grid">
+                                        <h3 class="education__title">FINANCE ADMINISTRATION</h3>
+                                        <span class="education__studies">University Minuto de Dios</span>
+                                        <span class="education__year">2016 - 2020</span>
+                                    </div>
+                                </div>
+
+                                <div class="education__content">
+                                    <div class="education__time">
+                                        <span class="education__rounder"></span>
+                                        <!-- <span class="education__line"></span> -->
+                                    </div>
+
+                                    <div class="education__data bd-grid">
+                                        <h3 class="education__title">WEB AND APP DEVELOPER</h3>
+                                        <span class="education__studies">Nacional University of Colombia</span>
+                                        <span class="education__year">2022 - 2022</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>    
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html5
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Css3
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Javascript
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Kotlin
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Flutter
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">Junior Web Developer focused on Smartphones Apps (backend) and websites (frontend). 
+                            Competent and versatile to develop some programming language tasks, using technologies like Flutter, Kotlin, Python, Java, Html5, Css3 and Javascript.
+                        </p>
+                    </section>
+
+                    
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Excel Skills For Business: Advanced - MacQuarie University (2021)</h3>
+                                <p class="certificate__description">I learned how to use advanced formula techniques and sophisticated lookups. 
+                                    You will clean and prepare data for analysis, and learn how to work with dates and financial functions. 
+                                    An in-depth look at spreadsheet design and documentation  where I learned how to build professional dashboards in Excel.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Python for Everybody and Data Structures - University of Michigan (2022)</h3>
+                                <p class="certificate__description">Python basics and introduce the core data structures of the Python programming language. 
+                                    And I learned how we can use the Python built-in data structures such as lists, dictionaries, and tuples 
+                                    to perform increasingly complex data analysis.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Software development - Nacional University of Colombia (2022)</h3>
+                                <p class="certificate__description">I learned about java language POO (Programing oriented objects) like how to use inheritance,
+                                    arrays, overriding, operators, variables and basic/intermediate concepts.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Development of mobile apps - Nacional University of Colombia (2022)</h3>
+                                <p class="certificate__description">I learned about Kotlin language how to use activity main, layouts, import libraries, fragments, 
+                                    variables, reports in JIRA SOFTWARE, BALSAMIQ SOFTWARE, how to use software arquitecture MVC(Model-View-Controller) and 
+                                    firebase implementation.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Spanish - Native
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English - Intermediate
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> French - Beginner
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interest</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-book interests__icon' ></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Work out</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Vicepresident operations</span>
+                                <h3 class="references__title">Mr. Hugo Leon</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: (+57) 601 2750000</li>
+                                    <li>Email: hleon@gnbsudameris.com.co</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Business Developer Solution</span>
+                                <h3 class="references__title">Mr. Michael Murcia</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: (+57) 3107695711</li>
+                                    <li>Email: michaelmurcia25@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="js\html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js\main.js"></script>
+    </body>
+</html>
